@@ -61,10 +61,10 @@ class _MyHomePageState extends State<MyHomePage> {
   ];
 
   final List<String> _icon = [
-    'assets/icons/house-solid.svg',
-    'assets/icons/right-to-bracket-solid.svg',
-    'assets/icons/right-from-bracket-solid.svg',
-    'assets/icons/circle-info-solid.svg',
+    'assets/icons/house-chimney-solid.svg',
+    'assets/icons/arrow-right-to-bracket-solid.svg',
+    'assets/icons/arrow-right-from-bracket-solid.svg',
+    'assets/icons/question-square-svgrepo-com.svg',
   ];
   void init() async {}
 
@@ -96,7 +96,7 @@ class _MyHomePageState extends State<MyHomePage> {
           elevation: 0,
         ),
         // backgroundColor: backgroundColor,
-        drawer: Drawer(
+        endDrawer: Drawer(
           backgroundColor: Colors.white,
           child: ListView(
             padding: EdgeInsets.zero,
